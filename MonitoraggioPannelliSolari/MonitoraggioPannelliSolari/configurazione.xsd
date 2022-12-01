@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--file di configurazione.xsd Monitoraggio Pannelli Solari-->
+<xs:schema xmlns:xs = "http://www.w3.org/2001/XMLSchema">
+	<xs:element name="ParametriDiConfigurazione">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="numeroAnni" type="xs:integer"/>
+			<xs:element name="listaAnni" type="xs:integer" maxOccurs="unbounded"/>
+			<xs:element name="coloreGraficoProduzione" type="xs:string"/>
+			<xs:element name="coloreGraficoConsumi" type="xs:string"/>
+			<xs:element name="coloreGraficoImmissioni" type="xs:string"/>
+			<xs:element name="numeroRigheTabella" type="xs:integer"/>
+			<xs:element name="numeroUltimeMisurazioni" type="xs:integer"/>
+			<xs:element name="IPClient" type="xs:string"/>
+			<xs:element name="IPLog" type="xs:string"/>
+			<xs:element name="portaLog" type="xs:integer"/>
+			<xs:element name="IPDB" type="xs:string"/>
+			<xs:element name="portaDB" type="xs:integer"/>
+		</xs:sequence>
+	</xs:complexType>
+	</xs:element>
+</xs:schema>

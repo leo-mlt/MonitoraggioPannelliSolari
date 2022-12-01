@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParametriDiConfigurazione>
+  <numeroAnni>5</numeroAnni>
+  <listaAnni>2019</listaAnni>
+  <listaAnni>2020</listaAnni>
+  <listaAnni>2021</listaAnni>
+  <listaAnni>2022</listaAnni>
+  <listaAnni>2023</listaAnni>
+  <coloreGraficoProduzione>green</coloreGraficoProduzione>
+  <coloreGraficoConsumi>red</coloreGraficoConsumi>
+  <coloreGraficoImmissioni>blue</coloreGraficoImmissioni>
+  <numeroRigheTabella>4</numeroRigheTabella>
+  <numeroUltimeMisurazioni>13</numeroUltimeMisurazioni>
+  <IPClient>127.0.0.1</IPClient>
+  <IPLog>127.0.0.1</IPLog>
+  <portaLog>8081</portaLog>
+  <IPDB>127.0.0.1</IPDB>
+  <portaDB>3306</portaDB>
+</ParametriDiConfigurazione>
