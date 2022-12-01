@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--file di eventoDiNavigazione.xsd Monitoraggio Pannelli Solari-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="EventoDiNavigazione">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="nomeApplicazione" type="xs:string"/>
+				<xs:element name="IpClient" type="xs:string"/>
+				<xs:element name="Data" type="xs:string"/>
+				<xs:element name="Evento" type="xs:string"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
